@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   rabbitmq:
-    image: "bitnami/rabbitmq:3.7"
+    image: "bitnami/rabbitmq:3.8"
     ports:
       - "4369:4369"
       - "5672:5672"
@@ -12,7 +12,7 @@ services:
       - "rabbitmq_data:/bitnami"
 
   redis:
-    image: "bitnami/redis:5.0.4"
+    image: "bitnami/redis:6.2.6"
     environment:
       - REDIS_PASSWORD=password123
     ports:
