@@ -16,7 +16,7 @@
 
 ### Requirements/dependencies
 
-- Python >= 3.7
+- Python >= 3.9
   - [poetry](https://python-poetry.org/docs/#installation)
 - RabbitMQ instance
 - Redis instance
